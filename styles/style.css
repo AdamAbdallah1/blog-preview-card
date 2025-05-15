@@ -11,16 +11,20 @@ body {
     align-items: center;
 }
 
+.font {
+    font-family: 'Figtree', sans-serif;
+}
+
 .card {
     background-color: white;
     width: 300px;
-    height: 400px;
+    height: 410px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    
+    gap: 10px;
 
     .card-image {
         display: flex;
@@ -37,19 +41,26 @@ body {
         margin-left: 15px;
     }
 
-    .font {
-        font-family: 'Figtree';
-        font-weight: 800;
-    }
-
    button {
-    margin-top: 10px;
     padding: 7px;
     background-color: hsl(47, 88%, 63%);
     border: none;
     border-radius: 5px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
     font-weight: 800;
-    font-family: 'Figtree';
+    cursor: pointer;
+   }
+
+   p {
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 500;
+   }
+
+   h3 {
+    font-weight: 800;
+   }
+
+   .grey {
+    color: gray;
    }
 }
