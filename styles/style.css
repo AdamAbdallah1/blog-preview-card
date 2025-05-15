@@ -19,12 +19,16 @@ body {
     background-color: white;
     width: 300px;
     height: 435px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: center;
     gap: 10px;
+    box-shadow: 5px 6px 0px black;
+    border: 1px solid black;
+    overflow: hidden;
+
 
     .card-image {
         display: flex;
